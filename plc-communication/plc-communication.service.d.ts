@@ -1,0 +1,40 @@
+import { EventEmitter2 } from '@nestjs/event-emitter';
+import { PlcAddresslistType, PlcDataType, ConfigurationType, PlcComStateType } from './interface/plc-communication.interface';
+export declare class PlcCommunicationService<BlockName extends PropertyKey> {
+    private plcCommunicationServiceEvent;
+    private config;
+    constructor(plcCommunicationServiceEvent: EventEmitter2, config: ConfigurationType<BlockName>);
+    private s7Connection;
+    private state;
+    private cycleScanIsActive;
+    private addressList;
+    private data;
+    private plcWriteQueue;
+    private plcEvent;
+    private setConfig;
+    getData(): PlcDataType<BlockName>;
+    resetData(): boolean;
+    private removeListeners;
+    getState(): {
+        state: PlcComStateType;
+        connection: boolean;
+        cycleScanIsActive: boolean;
+        config: ConfigurationType<BlockName>;
+        addressList: PlcAddresslistType;
+    };
+    initConnection(): Promise<boolean>;
+    private establishConnection;
+    private dropConnection;
+    connectionCleanUp(): Promise<void>;
+    addDataBlock: () => Promise<boolean>;
+    removeBlock(): void;
+    activeCycleScan(): Promise<void>;
+    deactiveCycleScan(): void;
+    private cycleScan;
+    dataUpdate: () => Promise<void>;
+    writeBlock: (blockName: BlockName[], data: any[], log?: boolean) => Promise<boolean>;
+    private readFromPlc;
+    private dataChangeHandler;
+    private errorHandler;
+    private blockAdressParse;
+}

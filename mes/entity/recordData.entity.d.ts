@@ -1,0 +1,31 @@
+import { Record } from './record.entity';
+export declare class RecordData {
+    id: number;
+    OPID: string;
+    CurDta_QD01: number;
+    CurDta_QD02: number;
+    CurDta_QD03: number;
+    CurDta_QD04: number;
+    PrvDta1_QD01: number;
+    PrvDta1_QD02: number;
+    PrvDta1_QD03: number;
+    PrvDta1_QD04: number;
+    PrvDta2_QD01: number;
+    PrvDta2_QD02: number;
+    PrvDta2_QD03: number;
+    PrvDta2_QD04: number;
+    TryCnt: number;
+    RT: number;
+    OType: number;
+    QD01_Min: number;
+    QD01_Max: number;
+    QD02_Min: number;
+    QD02_Max: number;
+    QD03_Min: number;
+    QD03_Max: number;
+    QD04_Min: number;
+    QD04_Max: number;
+    OperatorName: string;
+    OPTxt: string;
+    record: Record;
+}
