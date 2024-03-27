@@ -1,0 +1,21 @@
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:14 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +34ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMailerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mEventEmitter dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPlcCommunicationModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mServeStaticModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mEventEmitterModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMulterModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHomeModule dependencies initialized[39m[38;5;3m +39ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMailerCoreModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMailModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mI18nModule dependencies initialized[39m[38;5;3m +15ms[39m
+query: SELECT * FROM current_schema()
