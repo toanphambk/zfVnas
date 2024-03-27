@@ -19,3 +19,113 @@
 [32m[Nest] 22148  - [39m03/27/2024, 6:11:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMailModule dependencies initialized[39m[38;5;3m +0ms[39m
 [32m[Nest] 22148  - [39m03/27/2024, 6:11:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mI18nModule dependencies initialized[39m[38;5;3m +15ms[39m
 query: SELECT * FROM current_schema()
+query: CREATE EXTENSION IF NOT EXISTS "uuid-ossp"
+query: SELECT version();
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +6708ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mForgotModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMonitorModule dependencies initialized[39m[38;5;3m +5ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMachineEventsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMachineModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mShiftModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mFilesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHardwareActionModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/api/users}:[39m[38;5;3m +62ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mFilesController {/api/files}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/files/upload, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/files/:path, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/email/login, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/admin/email/login, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/email/register, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/email/confirm, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/forgot/password, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/reset/password, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/me, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/me, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/me, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mHomeController {/api}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mMachineController {/api/machine}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/machine, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/machine, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/machine/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/machine/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/machine/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mShiftController {/api/shift}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/shift, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/shift, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/shift/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/shift/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/shift/:id, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mHardwareActionController {/api/qrCode}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/qrCode/createQrCode, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/qrCode/createRFID, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mMesController {/api/mes}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/mes, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/mes/machineDateTime, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/mes/dailyLineChartData, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/mes/:moduleSerialNo, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mMonitorServiceManagerController {/api/monitor}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/monitor, GET} route[39m[38;5;3m +0ms[39m
+query: SELECT "Machine"."id" AS "Machine_id", "Machine"."SystemID" AS "Machine_SystemID", "Machine"."LineID" AS "Machine_LineID", "Machine"."StationName" AS "Machine_StationName", "Machine"."StationID" AS "Machine_StationID", "Machine"."description" AS "Machine_description", "Machine"."ipAddress" AS "Machine_ipAddress", "Machine"."createdAt" AS "Machine_createdAt", "Machine"."updatedAt" AS "Machine_updatedAt", "Machine"."deletedAt" AS "Machine_deletedAt" FROM "machine" "Machine" WHERE "Machine"."deletedAt" IS NULL
+[32m[Nest] 22148  - [39m03/27/2024, 6:11:21 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +17ms[39m
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+query: SELECT DISTINCT "distinctAlias"."User_id" AS "ids_User_id" FROM (SELECT "User"."id" AS "User_id", "User"."email" AS "User_email", "User"."password" AS "User_password", "User"."provider" AS "User_provider", "User"."socialId" AS "User_socialId", "User"."firstName" AS "User_firstName", "User"."lastName" AS "User_lastName", "User"."hash" AS "User_hash", "User"."createdAt" AS "User_createdAt", "User"."updatedAt" AS "User_updatedAt", "User"."deletedAt" AS "User_deletedAt", "User"."photoId" AS "User_photoId", "User"."roleId" AS "User_roleId", "User"."statusId" AS "User_statusId", "User__photo"."id" AS "User__photo_id", "User__photo"."path" AS "User__photo_path", "User__role"."id" AS "User__role_id", "User__role"."name" AS "User__role_name", "User__status"."id" AS "User__status_id", "User__status"."name" AS "User__status_name" FROM "user" "User" LEFT JOIN "file" "User__photo" ON "User__photo"."id"="User"."photoId"  LEFT JOIN "role" "User__role" ON "User__role"."id"="User"."roleId"  LEFT JOIN "status" "User__status" ON "User__status"."id"="User"."statusId" WHERE ( ("User"."id" = $1) ) AND ( "User"."deletedAt" IS NULL )) "distinctAlias" ORDER BY "User_id" ASC LIMIT 1 -- PARAMETERS: [1]
+query: SELECT "User"."id" AS "User_id", "User"."email" AS "User_email", "User"."password" AS "User_password", "User"."provider" AS "User_provider", "User"."socialId" AS "User_socialId", "User"."firstName" AS "User_firstName", "User"."lastName" AS "User_lastName", "User"."hash" AS "User_hash", "User"."createdAt" AS "User_createdAt", "User"."updatedAt" AS "User_updatedAt", "User"."deletedAt" AS "User_deletedAt", "User"."photoId" AS "User_photoId", "User"."roleId" AS "User_roleId", "User"."statusId" AS "User_statusId", "User__photo"."id" AS "User__photo_id", "User__photo"."path" AS "User__photo_path", "User__role"."id" AS "User__role_id", "User__role"."name" AS "User__role_name", "User__status"."id" AS "User__status_id", "User__status"."name" AS "User__status_name" FROM "user" "User" LEFT JOIN "file" "User__photo" ON "User__photo"."id"="User"."photoId"  LEFT JOIN "role" "User__role" ON "User__role"."id"="User"."roleId"  LEFT JOIN "status" "User__status" ON "User__status"."id"="User"."statusId" WHERE ( ("User"."id" = $1) ) AND ( "User"."deletedAt" IS NULL ) AND ( "User"."id" IN (1) ) -- PARAMETERS: [1]
+query: SELECT "Record"."id" AS "Record_id", "Record"."moduleSerialNo" AS "Record_moduleSerialNo", "Record"."systemDt" AS "Record_systemDt", "Record"."result" AS "Record_result", "Record"."createdAt" AS "Record_createdAt", "Record"."machineId" AS "Record_machineId" FROM "record" "Record" LEFT JOIN "machine" "Record__Record_machine" ON "Record__Record_machine"."id"="Record"."machineId" AND ("Record__Record_machine"."deletedAt" IS NULL) WHERE ("Record__Record_machine"."id" = $1 AND "Record"."createdAt" BETWEEN $2 AND $3) -- PARAMETERS: [2,"2024-03-26T17:00:00.000Z","2024-03-27T16:59:59.999Z"]
+query: SELECT "Record"."id" AS "Record_id", "Record"."moduleSerialNo" AS "Record_moduleSerialNo", "Record"."systemDt" AS "Record_systemDt", "Record"."result" AS "Record_result", "Record"."createdAt" AS "Record_createdAt", "Record"."machineId" AS "Record_machineId", "Record__Record_recordDatas"."id" AS "Record__Record_recordDatas_id", "Record__Record_recordDatas"."OPID" AS "Record__Record_recordDatas_OPID", "Record__Record_recordDatas"."CurDta_QD01" AS "Record__Record_recordDatas_CurDta_QD01", "Record__Record_recordDatas"."CurDta_QD02" AS "Record__Record_recordDatas_CurDta_QD02", "Record__Record_recordDatas"."CurDta_QD03" AS "Record__Record_recordDatas_CurDta_QD03", "Record__Record_recordDatas"."CurDta_QD04" AS "Record__Record_recordDatas_CurDta_QD04", "Record__Record_recordDatas"."PrvDta1_QD01" AS "Record__Record_recordDatas_PrvDta1_QD01", "Record__Record_recordDatas"."PrvDta1_QD02" AS "Record__Record_recordDatas_PrvDta1_QD02", "Record__Record_recordDatas"."PrvDta1_QD03" AS "Record__Record_recordDatas_PrvDta1_QD03", "Record__Record_recordDatas"."PrvDta1_QD04" AS "Record__Record_recordDatas_PrvDta1_QD04", "Record__Record_recordDatas"."PrvDta2_QD01" AS "Record__Record_recordDatas_PrvDta2_QD01", "Record__Record_recordDatas"."PrvDta2_QD02" AS "Record__Record_recordDatas_PrvDta2_QD02", "Record__Record_recordDatas"."PrvDta2_QD03" AS "Record__Record_recordDatas_PrvDta2_QD03", "Record__Record_recordDatas"."PrvDta2_QD04" AS "Record__Record_recordDatas_PrvDta2_QD04", "Record__Record_recordDatas"."TryCnt" AS "Record__Record_recordDatas_TryCnt", "Record__Record_recordDatas"."RT" AS "Record__Record_recordDatas_RT", "Record__Record_recordDatas"."OType" AS "Record__Record_recordDatas_OType", "Record__Record_recordDatas"."QD01_Min" AS "Record__Record_recordDatas_QD01_Min", "Record__Record_recordDatas"."QD01_Max" AS "Record__Record_recordDatas_QD01_Max", "Record__Record_recordDatas"."QD02_Min" AS "Record__Record_recordDatas_QD02_Min", "Record__Record_recordDatas"."QD02_Max" AS "Record__Record_recordDatas_QD02_Max", "Record__Record_recordDatas"."QD03_Min" AS "Record__Record_recordDatas_QD03_Min", "Record__Record_recordDatas"."QD03_Max" AS "Record__Record_recordDatas_QD03_Max", "Record__Record_recordDatas"."QD04_Min" AS "Record__Record_recordDatas_QD04_Min", "Record__Record_recordDatas"."QD04_Max" AS "Record__Record_recordDatas_QD04_Max", "Record__Record_recordDatas"."OperatorName" AS "Record__Record_recordDatas_OperatorName", "Record__Record_recordDatas"."OPTxt" AS "Record__Record_recordDatas_OPTxt", "Record__Record_recordDatas"."recordId" AS "Record__Record_recordDatas_recordId", "Record__Record_machine"."id" AS "Record__Record_machine_id", "Record__Record_machine"."SystemID" AS "Record__Record_machine_SystemID", "Record__Record_machine"."LineID" AS "Record__Record_machine_LineID", "Record__Record_machine"."StationName" AS "Record__Record_machine_StationName", "Record__Record_machine"."StationID" AS "Record__Record_machine_StationID", "Record__Record_machine"."description" AS "Record__Record_machine_description", "Record__Record_machine"."ipAddress" AS "Record__Record_machine_ipAddress", "Record__Record_machine"."createdAt" AS "Record__Record_machine_createdAt", "Record__Record_machine"."updatedAt" AS "Record__Record_machine_updatedAt", "Record__Record_machine"."deletedAt" AS "Record__Record_machine_deletedAt" FROM "record" "Record" LEFT JOIN "record_data" "Record__Record_recordDatas" ON "Record__Record_recordDatas"."recordId"="Record"."id"  LEFT JOIN "machine" "Record__Record_machine" ON "Record__Record_machine"."id"="Record"."machineId" AND ("Record__Record_machine"."deletedAt" IS NULL) WHERE ("Record__Record_machine"."id" = $1 AND "Record"."createdAt" BETWEEN $2 AND $3) -- PARAMETERS: [2,"2024-03-26T17:00:00.000Z","2024-03-27T16:59:59.999Z"]
+query: SELECT DISTINCT "distinctAlias"."User_id" AS "ids_User_id" FROM (SELECT "User"."id" AS "User_id", "User"."email" AS "User_email", "User"."password" AS "User_password", "User"."provider" AS "User_provider", "User"."socialId" AS "User_socialId", "User"."firstName" AS "User_firstName", "User"."lastName" AS "User_lastName", "User"."hash" AS "User_hash", "User"."createdAt" AS "User_createdAt", "User"."updatedAt" AS "User_updatedAt", "User"."deletedAt" AS "User_deletedAt", "User"."photoId" AS "User_photoId", "User"."roleId" AS "User_roleId", "User"."statusId" AS "User_statusId", "User__photo"."id" AS "User__photo_id", "User__photo"."path" AS "User__photo_path", "User__role"."id" AS "User__role_id", "User__role"."name" AS "User__role_name", "User__status"."id" AS "User__status_id", "User__status"."name" AS "User__status_name" FROM "user" "User" LEFT JOIN "file" "User__photo" ON "User__photo"."id"="User"."photoId"  LEFT JOIN "role" "User__role" ON "User__role"."id"="User"."roleId"  LEFT JOIN "status" "User__status" ON "User__status"."id"="User"."statusId" WHERE ( ("User"."id" = $1) ) AND ( "User"."deletedAt" IS NULL )) "distinctAlias" ORDER BY "User_id" ASC LIMIT 1 -- PARAMETERS: [1]
+query: SELECT "User"."id" AS "User_id", "User"."email" AS "User_email", "User"."password" AS "User_password", "User"."provider" AS "User_provider", "User"."socialId" AS "User_socialId", "User"."firstName" AS "User_firstName", "User"."lastName" AS "User_lastName", "User"."hash" AS "User_hash", "User"."createdAt" AS "User_createdAt", "User"."updatedAt" AS "User_updatedAt", "User"."deletedAt" AS "User_deletedAt", "User"."photoId" AS "User_photoId", "User"."roleId" AS "User_roleId", "User"."statusId" AS "User_statusId", "User__photo"."id" AS "User__photo_id", "User__photo"."path" AS "User__photo_path", "User__role"."id" AS "User__role_id", "User__role"."name" AS "User__role_name", "User__status"."id" AS "User__status_id", "User__status"."name" AS "User__status_name" FROM "user" "User" LEFT JOIN "file" "User__photo" ON "User__photo"."id"="User"."photoId"  LEFT JOIN "role" "User__role" ON "User__role"."id"="User"."roleId"  LEFT JOIN "status" "User__status" ON "User__status"."id"="User"."statusId" WHERE ( ("User"."id" = $1) ) AND ( "User"."deletedAt" IS NULL ) AND ( "User"."id" IN (1) ) -- PARAMETERS: [1]
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
+[ ERROR ] :  INTI CONNECTION ERROR : {"code":"EUSERTIMEOUT"}
