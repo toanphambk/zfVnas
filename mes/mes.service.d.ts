@@ -12,8 +12,8 @@ export declare class MesService {
     private plcServiceFactory;
     private recordRepo;
     private recordDataRepo;
-    private builder;
     constructor(plcServiceFactory: PlcCommunicationServiceFactory<any>, recordRepo: Repository<Record>, recordDataRepo: Repository<RecordData>);
+    private XML_SAVE_DIR;
     readMesDataExportXml(machine: Machine): Promise<boolean>;
     getAllRecords(): Promise<Record[]>;
     getDailyLineChartData({ machineId, time, }: GetDailyLineChartDataDto): Promise<{

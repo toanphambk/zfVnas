@@ -11,11 +11,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-var _a;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.MesService = void 0;
 const common_1 = require("@nestjs/common");
-const xml2js = require("xml2js");
 const mes_interface_1 = require("./interface/mes.interface");
 const fs_1 = require("fs");
 const path_1 = require("path");
@@ -23,17 +21,14 @@ const typeorm_1 = require("@nestjs/typeorm");
 const typeorm_2 = require("typeorm");
 const recordData_entity_1 = require("./entity/recordData.entity");
 const record_entity_1 = require("./entity/record.entity");
-<<<<<<< HEAD
-const XML_SAVE_DIR = (_a = process.env.XML_SAVE_DIR) !== null && _a !== void 0 ? _a : './';
-=======
-const XML_SAVE_DIR = process.env.XML_SAVE_DIR || './';
->>>>>>> ee8624cad09d5056b990559da3ab884bc6fc22c8
 let MesService = exports.MesService = class MesService {
     constructor(plcServiceFactory, recordRepo, recordDataRepo) {
+        var _a;
         this.plcServiceFactory = plcServiceFactory;
         this.recordRepo = recordRepo;
         this.recordDataRepo = recordDataRepo;
-        this.builder = new xml2js.Builder({ headless: true, rootName: 'Data' });
+        this.XML_SAVE_DIR = (_a = process.env.XML_SAVE_DIR) !== null && _a !== void 0 ? _a : './';
+        console.log('MES SERVICE INITIALIZED', this.XML_SAVE_DIR);
     }
     async readMesDataExportXml(machine) {
         try {
@@ -56,10 +51,10 @@ let MesService = exports.MesService = class MesService {
             recordData.forEach(async (data, index) => {
                 await this.recordDataRepo.save(Object.assign(Object.assign({}, recordData[index]), { record: newRecord }));
             });
-            if (!(0, fs_1.existsSync)(XML_SAVE_DIR)) {
-                (0, fs_1.mkdirSync)(XML_SAVE_DIR, { recursive: true });
+            if (!(0, fs_1.existsSync)(this.XML_SAVE_DIR)) {
+                (0, fs_1.mkdirSync)(this.XML_SAVE_DIR, { recursive: true });
             }
-            const filePath = (0, path_1.join)(XML_SAVE_DIR, fileName);
+            const filePath = (0, path_1.join)(this.XML_SAVE_DIR, fileName);
             (0, fs_1.writeFileSync)(filePath, xmlData);
             return true;
         }
