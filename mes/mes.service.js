@@ -23,7 +23,11 @@ const typeorm_1 = require("@nestjs/typeorm");
 const typeorm_2 = require("typeorm");
 const recordData_entity_1 = require("./entity/recordData.entity");
 const record_entity_1 = require("./entity/record.entity");
+<<<<<<< HEAD
 const XML_SAVE_DIR = (_a = process.env.XML_SAVE_DIR) !== null && _a !== void 0 ? _a : './';
+=======
+const XML_SAVE_DIR = process.env.XML_SAVE_DIR || './';
+>>>>>>> ee8624cad09d5056b990559da3ab884bc6fc22c8
 let MesService = exports.MesService = class MesService {
     constructor(plcServiceFactory, recordRepo, recordDataRepo) {
         this.plcServiceFactory = plcServiceFactory;
