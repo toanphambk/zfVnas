@@ -11,6 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
+var _a;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.MesService = void 0;
 const common_1 = require("@nestjs/common");
@@ -22,7 +23,7 @@ const typeorm_1 = require("@nestjs/typeorm");
 const typeorm_2 = require("typeorm");
 const recordData_entity_1 = require("./entity/recordData.entity");
 const record_entity_1 = require("./entity/record.entity");
-const XML_SAVE_DIR = 'E:\\data';
+const XML_SAVE_DIR = (_a = process.env.XML_SAVE_DIR) !== null && _a !== void 0 ? _a : './';
 let MesService = exports.MesService = class MesService {
     constructor(plcServiceFactory, recordRepo, recordDataRepo) {
         this.plcServiceFactory = plcServiceFactory;
